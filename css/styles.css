@@ -1,0 +1,240 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Navigation */
+
+.header_area .main_menu {
+    background-color: #f4eee8;
+}
+
+.header_area .main_menu .navbar .navbar-nav a {
+    font-size: medium;
+    font-weight: 500;
+    color: dimgray;
+    padding: 1rem;
+}
+
+.header_area .main_menu .navbar .navbar-nav .active {
+    font-size: medium;
+    font-weight: 500;
+    color: #1cc5dc;
+    padding: 1rem;
+}
+
+.header_area .main_menu .navbar .navbar-nav a:hover {
+    font-size: medium;
+    font-weight: 500;
+    color: #1cc5dc;
+    padding: 1rem;
+}
+
+.site-main .site-banner .site-title h3 {
+    font-weight: 500;
+    margin-top: 15%;
+    margin-left: 30%;
+    font-size: 1.5rem;
+    padding: 10px 10px;
+}
+
+.site-main .site-banner .site-title h1 {
+    font-weight: 500;
+    font-size: 3rem;
+    margin-left: 30%;
+    padding: 10px 10px;
+}
+
+.site-main .site-banner .site-title h4 {
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-left: 30%;
+    padding: 10px 10px;
+}
+
+.site-main .site-banner .site-title .site-buttons {
+    margin-left: 30%;
+    padding: 10px 10px;
+}
+
+.site-main .site-banner .site-title .site-buttons button {
+    background: linear-gradient(90deg, #008cff, #6942ef);
+    font-weight: 600;
+    background-clip: padding-box;
+    color: antiquewhite;
+}
+
+.site-main .site-banner .site-title .site-buttons button:hover {
+    background: white;
+    background-clip: padding-box;
+    border: 1px solid black;
+    font-weight: 600;
+    color: black;
+}
+
+@media screen and (max-width: 600px) {
+    .site-main .site-banner .site-title {
+        margin-top: 10%;
+        margin-right: 15%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .site-main .site-banner .site-title img {
+        max-width: 20rem;
+        margin-top: 10%;
+        margin-left: 15%;
+    }
+}
+
+.site-main .site-banner .site-title img {
+    width: 25rem;
+    margin-top: 10%;
+}
+
+.site-main .about-area .about-div {
+    margin: 10px;
+}
+
+.site-main .about-area .about-title .about-text {
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.site-main .about-area .about-title h2 {
+    font-weight: 700;
+    text-align: left;
+}
+
+.site-main .about-area .about-title .paragraph {
+    max-width: 75%;
+}
+
+.site-main .about-area .about-title .paragraph p {
+    font-weight: 500;
+    color: black;
+}
+
+.site-main .about-area .about-title button {
+    background: linear-gradient(90deg, #008cff, #6942ef);
+    font-weight: 600;
+    background-clip: padding-box;
+    color: antiquewhite;
+}
+
+.site-main .about-area .about-title button:hover {
+    background: white;
+    background-clip: padding-box;
+    border: 1px solid black;
+    font-weight: 600;
+    color: black;
+}
+
+.site-main .about-area .about-img {
+    max-width: 30rem;
+    margin-left: 100px;
+}
+
+@media screen and (max-width: 600px) {
+    .site-main .about-area .about-img {
+        max-width: 20rem;
+        margin-top: 0;
+        margin-left: 0;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .site-main .about-area .about-title .paragraph {
+        width: 100%;
+        margin: auto;
+    }
+}
+
+body {
+    background-color: #9fc4fb
+}
+
+.contact-div {
+    background-color: #010449;
+    max-width: 70%;
+}
+
+@media screen and (max-width: 600px) {
+    .contact-div {
+        max-width: 100%;
+    }
+}
+
+.msg-form {
+    background-color: white;
+    padding: 20px
+}
+
+.pad-icon {
+    padding-top: 50px;
+    padding-left: 20px
+}
+
+.pad-icon a {
+    text-decoration: none;
+    margin-right: 40px
+}
+
+.input-group input:focus {
+    border: 1px solid blue
+}
+
+.pad-icon a:active {
+    height: 30px;
+    width: 30px;
+    background-color: #0080ff;
+    border-radius: 100%
+}
+
+.links {
+    padding-top: 50px;
+    width: 50%
+}
+
+#bordering a:active {
+    border: 1px solid #0080ff
+}
+
+@media(min-width:568px) {
+    .container-fluid {
+        margin: 100px 30px;
+        width: 96%;
+        padding-top: 50px;
+        padding-bottom: 50px
+    }
+}
+
+@media(max-width:567px) {
+    .container-fluid {
+        margin: 10px 10px;
+        width: 94%;
+        padding-top: 20px;
+        padding-bottom: 20px
+    }
+    .pad {
+        padding-top: 20px
+    }
+}
+
+.card {
+    background-color: antiquewhite;
+    border-radius: 5%;
+}
+
+.skill-area h1,
+h2 {
+    text-align: center;
+    font-weight: 700;
+}
+
+.project-area h1,
+h2 {
+    text-align: center;
+    font-weight: 700;
+}
